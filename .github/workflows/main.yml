@@ -15,7 +15,7 @@ jobs:
       RUN_FREQUENCY: 86400 # in seconds
     steps:
       - name: Setup Node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: 14
 
